@@ -1,0 +1,32 @@
+# Frontend Project Structure (React + TypeScript)
+
+- src/
+  - api/
+    - client.ts
+  - components/
+    - tasks/
+    - users/
+    - Login.tsx
+    - Register.tsx
+    - Tasks.tsx
+    - Profile.tsx
+  - context/
+    - AuthContext.tsx
+    - TaskContext.tsx
+  - hooks/
+    - useAuth.ts
+    - useTasks.ts
+  - pages/
+    - Home.tsx
+  - types/
+    - api.ts
+    - models.ts
+  - App.tsx
+  - index.tsx
+  - routes.tsx
+- public/
+  - index.html
+- package.json
+- tsconfig.json
+- .env
+- README.md
